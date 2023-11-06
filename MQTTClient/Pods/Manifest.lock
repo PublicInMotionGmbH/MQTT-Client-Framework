@@ -1,10 +1,10 @@
 PODS:
-  - MQTTClient/Manager (0.13.1):
+  - MQTTClient/Manager (0.15.4):
     - MQTTClient/Min
-  - MQTTClient/Min (0.13.1)
-  - MQTTClient/Websocket (0.13.1):
+  - MQTTClient/Min (0.15.4)
+  - MQTTClient/Websocket (0.15.4):
     - MQTTClient/Min
-    - SocketRocket
+    - SocketRocket (= 0.5.1)
   - SocketRocket (0.5.1)
 
 DEPENDENCIES:
@@ -12,14 +12,18 @@ DEPENDENCIES:
   - MQTTClient/Min (from `..`)
   - MQTTClient/Websocket (from `..`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SocketRocket
+
 EXTERNAL SOURCES:
   MQTTClient:
-    :path: ..
+    :path: ".."
 
 SPEC CHECKSUMS:
-  MQTTClient: bedb2125ed9fcde295731e7605793f7757a41c8e
+  MQTTClient: 19eb7d1db234451f319e27a0707f831c7ef8a56d
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
 PODFILE CHECKSUM: ab3b4214dc31b1d65271cc9448f5c08ac7014391
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.12.1
