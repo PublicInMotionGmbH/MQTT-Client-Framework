@@ -1,13 +1,13 @@
 Pod::Spec.new do |mqttc|
 	mqttc.name         = "MQTTClient"
-	mqttc.version      = "0.15.4"
+	mqttc.version      = "0.15.5"
 	mqttc.summary      = "iOS, macOS and tvOS native ObjectiveC MQTT Client Framework"
 	mqttc.homepage     = "https://github.com/novastone-media/MQTT-Client-Framework"
 	mqttc.license      = { :type => "EPLv1", :file => "LICENSE" }
 	mqttc.author       = { "novastonemedia" => "ios@novastonemedia.com" }
 	mqttc.source       = {
 		:git => "https://github.com/radek-talixo/MQTT-Client-Framework.git",
-		:tag => "0.15.4",
+		:tag => "0.15.5",
 		:submodules => true
 	}
 
